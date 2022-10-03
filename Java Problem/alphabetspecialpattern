@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class abc
+{
+    public static void main(String[] args)
+    {
+        int n,i,j;
+        char ch='A';
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the number of rows");
+        n= sc.nextInt();
+
+        for ( i=n-1;i>=0;i-=2)
+        {
+            for ( j=0;j<=i;j++)
+            {
+                System.out.print(ch + " ");
+                ch++;
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
