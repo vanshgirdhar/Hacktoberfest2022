@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="tut4.css">
+    <style>
+        h1{
+            border: 2px solid black;
+        }
+       #redelement{
+           color:blue;
+           background-color: red;
+           border:2px solid white;
+       }
+       .first{
+           background-color: yellow;
+           color: chocolate;
+           font-style: oblique;
+           border: 2px solid black;
+       }
+       span{
+           font-size: 33px;
+           line-height: 6.4em;
+           font-style: italic;
+           font-weight: bold;
+       }
+    </style>
+</head>
+<body>
+    <h1 class="first">This  is a heading</h1>
+    <p id="redelement">This is a paragraph</p>
+    <p>let play with the <span>fonts</span> family</p>
+</body>
+</html>
