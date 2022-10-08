@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box Models</title>
+</head>
+<style>
+    body{
+        /**background-image: url(rishabh.jpg);**/
+        background-color:green ;
+    }
+    .container{
+        background-color: orangered;
+        border: 2px solid black;
+        border-radius: 5px ;
+        padding: 20px;
+        margin:20px;
+        /**margin-right: 5px;**/
+        height: 200px;
+        width: 300px;
+    }
+</style>
+<body>
+    <div class="container">
+        <h3>This is our first heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, assumenda accusamus provident incidunt facere veniam vel, facilis fuga nam esse aspernatur earum molestiae?</p>
+    </div>
+    <div class="container">
+        <h3>This is our second heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, assumenda accusamus provident incidunt facere veniam vel, facilis fuga nam esse aspernatur earum molestiae?</p>
+    </div>
+    <div class="container">
+        <h3>This is our third heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, assumenda accusamus provident incidunt facere veniam vel, facilis fuga nam esse aspernatur earum molestiae?</p>
+    </div>
+</body>
+</html>
