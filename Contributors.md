@@ -1,6 +1,7 @@
 ﻿# Contributors
 <!-- prettier-ignore-start -->
 - [Deepak Kumar](https://github.com/kumardeepak85690)
+- [Sahul Kumar Parida](https://github.com/sahuljr7)
 - [Nishant Wankhade](https://github.com/NishantWankhade)
 - [CyberVarun](https://github.com/CyberVarun)
 - [Dafa Armanto](https://github.com/dafaarmanto)
@@ -4249,6 +4250,6 @@
 - [codewithdev] (https://github.com/codewithdev)
 - [tbsschroeder] (https://github.com/tbsschroeder)
 - [Muhammad Shafa](https://github.com/MuShaf-NMS)
-- [Sahul Kumar Parida](https://github.com/sahuljr7)
+
 
 <!-- prettier-ignore-end -->
