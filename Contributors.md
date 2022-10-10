@@ -1,6 +1,7 @@
 ﻿# Contributors
 <!-- prettier-ignore-start -->
 - [Deepak Kumar](https://github.com/kumardeepak85690)
+- [Ravi Parsad](https://github.com/raviparsad)
 - [Sahul Kumar Parida](https://github.com/sahuljr7)
 - [Nishant Wankhade](https://github.com/NishantWankhade)
 - [CyberVarun](https://github.com/CyberVarun)
