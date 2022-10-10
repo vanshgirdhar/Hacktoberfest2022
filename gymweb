@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,88 +8,104 @@
     <title>fitness gym</title>
 </head>
 <style>
-    body{
-        background-image: url(life.jpg);
+    body {
+        background-image: url(https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
         background-size: cover;
     }
-    .left{
+
+    .left {
         display: inline-block;
-        position:absolute;
+        position: absolute;
         left: 35px;
         top: 20px;
     }
-    .mid{
+
+    .mid {
         display: block;
-        margin:20px auto;
-        width:55%;
+        margin: 20px auto;
+        width: 55%;
     }
-    .right{
+
+    .right {
         display: inline-block;
-        position:absolute;
+        position: absolute;
         right: 35px;
         top: 20px;
     }
-    .navbar{
+
+    .navbar {
         border-color: wheat;
         background-color: black;
         border-radius: 13px;
 
     }
-    .navbar li{
-        float:left;
+
+    .navbar li {
+        float: left;
         list-style: none;
-        margin:13px;
+        margin: 13px;
     }
-    .navbar ul{
+
+    .navbar ul {
         overflow: auto;
     }
-    .navbar li a{
+
+    .navbar li a {
         padding: 8px;
         color: white;
         text-decoration: none;
     }
-    .navbar:hover, .navbar li a.active{
-        color:blue;
+
+    .navbar:hover,
+    .navbar li a.active {
+        color: blue;
         text-decoration: underline;
     }
-    .left img{
+
+    .left img {
         width: 100px;
         text-align: center;
-        height:50px;
+        height: 50px;
     }
-    .btan{
-        margin:0px 9px;
-        padding:9px 18px;
+
+    .btan {
+        margin: 0px 9px;
+        padding: 9px 18px;
         background-color: black;
         color: blanchedalmond;
         border: 2px solid white;
         cursor: pointer;
     }
-    .btan:hover{
+
+    .btan:hover {
         background-color: blue;
     }
-    .container{
+
+    .container {
         border: 2px solid white;
-        margin:100px 80px;
+        margin: 100px 80px;
         padding: 50px;
         width: 33%;
         border-radius: 28px;
     }
-    .form input{
-        text-align:center ;
+
+    .form input {
+        text-align: center;
         display: block;
         padding: 5px;
-        width:400px;
+        width: 400px;
         margin: 5px auto;
         font-size: 20px;
         border-radius: 10px;
         cursor: pointer;
     }
-    .container h1{
+
+    .container h1 {
         color: cornsilk;
-        text-align:center;
+        text-align: center;
     }
-    .container button{
+
+    .container button {
         display: block;
         margin: 10px auto;
         width: 94%;
@@ -100,43 +117,43 @@
         border-color: white;
 
     }
-    .left div{
-        text-align:center;
+
+    .left div {
+        text-align: center;
         font-weight: bolder;
         color: ivory;
-    
+
     }
-    .element{
+
+    .element {
         border-radius: 20px;
-        border: 4px  solid white;
+        border: 4px solid white;
         background-color: black;
         margin: 0px 5px;
         padding: 22px;
-        width:32%;
+        width: 32%;
         box-sizing: border-box;
-        display:inline-block;
+        display: inline-block;
     }
-    .let{
+
+    .let {
         color: cornsilk;
         font-size: 30px;
         text-align: center;
     }
-    .beg{
-        color:cornsilk;
-        font-size: 22px ;
+
+    .beg {
+        color: cornsilk;
+        font-size: 22px;
         text-align: center;
     }
-    
-    
-
-    
-
 </style>
 <div>
     <header class="header">
         <div class="left">
-            <img src="24737.jpg" alt="">
-            <div>rishu gym</div>
+            <img src="https://image.similarpng.com/very-thumbnail/2020/12/Bodybuilding-and-gym-logo-on-transparent-background-PNG.png"
+                alt="">
+            <div>Your Name Gym</div>
         </div>
         <div class="mid">
             <nav class="navbar">
@@ -148,7 +165,7 @@
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Blog</a></li>
-                   
+
                 </ul>
             </nav>
 
@@ -161,44 +178,51 @@
     <div class="container">
         <h1>Welcome For Your Own Gym</h1>
         <form action="noaction.php">
-       <div class="form">
-          <input type="text" name="" placeholder="Enter your Name">
-       </div>
-       <div class="form">  
-          <input type="text" name="" placeholder="Enter your Age">
-       </div>
-       <div class="form">  
-          <input type="text" name="" placeholder="Enter your Gender">
-       </div>
-       <div class="form">  
-          <input type="text" name="" placeholder="Enter your State">
-    </div> 
-           <button class="btm">Submit</button>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your State">
+            </div>
+            <button class="btm">Submit</button>
         </form>
     </div>
     <div class="box">
-    <div class="element">
-           <h2 class="let">BODY BUILDING</h2>
-        <p class="beg">
-         Building muscles require a positive energy balance,which means that you must takein more calories than you burn.You need roughly 2800 calories to build a pound of muscle,largly to support protein turnover,which can be elevated with training.   
-        </p>
+        <div class="element">
+            <h2 class="let">BODY BUILDING</h2>
+            <p class="beg">
+                Building muscles require a positive energy balance,which means that you must takein more calories than
+                you burn.You need roughly 2800 calories to build a pound of muscle,largly to support protein
+                turnover,which can be elevated with training.
+            </p>
         </div>
         <div class="element">
             <h2 class="let">YOGA CLASSES</h2>
-         <p class="beg">
-         A Yoga studio is a room, building or other place where yoga classes and instruction takes place.It can be as simple room or as complex as a structure with multiple classrooms with built-in props and heated humidified rooms for Hot yoga.Yoga Instructor in Hollywood,California.
-         </p> 
-        </div> 
+            <p class="beg">
+                A Yoga studio is a room, building or other place where yoga classes and instruction takes place.It can
+                be as simple room or as complex as a structure with multiple classrooms with built-in props and heated
+                humidified rooms for Hot yoga.Yoga Instructor in Hollywood,California.
+            </p>
+        </div>
         <div class="element">
             <h2 class="let">AEROBICS CLASSIES</h2>
-         <p class="beg">
-          Aerobic Dance exercise is any physical activity that makes you sweet cause you to brethe harder and gets your heart beating faster than at rest. Aerobic dance strenghtness your heart and lungs and trains your cardiovacular system to manage and deliver oxygen more body.   
-         </p> 
-        </div>  
- 
+            <p class="beg">
+                Aerobic Dance exercise is any physical activity that makes you sweet cause you to brethe harder and gets
+                your heart beating faster than at rest. Aerobic dance strenghtness your heart and lungs and trains your
+                cardiovacular system to manage and deliver oxygen more body.
+            </p>
+        </div>
+
 
     </div>
-    
-    </div>
+
+</div>
 </body>
+
 </html>
