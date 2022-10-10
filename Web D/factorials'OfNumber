@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<body style="text-align:center; font-size:20px;">
+
+enter a number:<input id="number">
+<br><br>
+<button onclick="fact1()">factorial</button>
+<p id="res"></p>
+<script>
+function fact(num)
+{
+if (num==0){
+return 1;
+}
+else {
+return num*fact(num-1);
+}
+}
+function fact1(){
+var num=document.getElementById("demo").innerHTML= x;
+</script>
+</body>
+</html>
