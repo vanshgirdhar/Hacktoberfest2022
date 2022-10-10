@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Registration form</title>
+</head>
+<style>
+    body
+     {
+  background-image: url("wp7.png"); 
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+    </style>
+<body>
+    <h1>Register Here!</h1>
+    <form action="submited.html">
+        <fieldset>
+         <legend>
+             <h2>
+                 ENTER YOUR DETAILS
+             </h2>
+         </legend>
+   <tr>
+       <td>
+           First Name:
+       </td>
+       <td>
+           <input type="name" placeholder="First name" name="">
+       </td>
+       <td>
+        Middel Name:
+       </td>
+       <td>
+          <input type="name" placeholder="Middel name" name="">
+       </td>
+       <td>
+        Last Name:
+       </td>
+        <td>
+        <input type="name" placeholder=" Last name" name="">
+        </td>
+   </tr>
+   <br>
+   <br>
+   <tr>
+    <td>
+        Father name:
+    </td>
+    <td>
+        <input type="name" placeholder="Father name" name="">
+    </td>
+    <td>
+        Mother name:
+    </td>
+    <td>
+        <input type="name" placeholder="Mother name" name="">
+    </td>
+</tr>
+<br>
+<br>
+   <tr>
+       <td>
+           Gender:
+       </td>
+       <td>
+           <input type="radio" name="Gender">Male
+       </td>
+       <td>
+           <input type="radio" name="Gender">Female
+       </td>
+   </tr>
+   <br>
+   <br> 
+   <tr>
+       <td>
+           Date Of  Birth:
+       </td>
+       <td>
+           <input type="Date" placeholder="D.O.B" name="">
+       </td>
+   </tr>
+   <br>
+   <br>
+   <tr>
+       <td>
+           Date Of  Vaccination:
+       </td>
+       <td>
+           <input type="Date" placeholder="vaccination date" name="">
+       </td>
+   </tr>
+   <br>
+   <br>
+   <tr>
+       <td>
+          Type of vaccin:
+       </td>
+       <td>
+           <select>
+               <option>
+                   Covishield
+               </option>
+               <option>
+                Covixn
+            </option>
+            <option>
+                Other
+            </option>
+           </select>
+       </td>
+   </tr>
+   <br>
+   <br>
+    <tr>
+        <td>
+            Aadhar No.:
+        </td>
+        <td>
+            <input type="Aadhar No" placeholder="Aadhar" name="">
+        </td>
+    </tr>
+    <br>
+    <br>
+    <tr>
+        <td>
+            Phone number:
+        </td>
+        <td>
+            <select>
+            <option>
+                +91
+            </option>
+        </select>
+        </td>
+        <td>
+            <input type="phone" placeholder="phone number" name="">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Email:
+        </td>
+        <td>
+            <input type="email" placeholder="email" name="">
+        </td>
+    </tr>
+    <br>
+    <br>
+    <tr>
+        <td>
+            Address:
+        </td>
+        <td>
+            <input type="address" placeholder="Address" name="">
+        </td>
+    </tr>
+    <tr>
+    </tr>
+    <br>
+    <br>
+    <tr>
+        <td>
+		    <mark>Submit Here &#128073;</mark>
+            <input type="Submit" value="submit" name=""> &nbsp; <input type="Reset">
+        </td>
+    </tr>
+    </fieldset>
+</form>
+</body>
+</html>
