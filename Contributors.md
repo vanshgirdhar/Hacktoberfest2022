@@ -4250,7 +4250,6 @@
 - [Jotiraditya Banerjee] (https://github.com/JotiradityaB)
 - [codewithdev] (https://github.com/codewithdev)
 - [tbsschroeder] (https://github.com/tbsschroeder)
-- [mere-sai] (https://github.com/mere-sai)
 - [Muhammad Shafa](https://github.com/MuShaf-NMS)
 
 
