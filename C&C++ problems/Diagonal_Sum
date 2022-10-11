@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+#define MAX 100
+using namespace std;
+int diagonal_diff(int arr[][MAX],int n)
+{
+    int psum=0;
+    int csum=0;
+    for(int i =0;i<n;i++ )
+    {
+        for(int j=0;j<n;j++)
+        {
+            if(i==j)
+            psum+=arr[i][j];
+            
+            if(i==(n-1-j))
+            csum+=arr[i][j];
+        }
+    }
+    int diff = abs(psum - csum);
+    return diff;
+}
+int main()
+{
+    int n;
+    cin>>n;
+    int arr[n][MAX];
+    for(int i =0;i<n;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            cin>>arr[i][j];
+        }
+    }
+    cout<<diagonal_diff(arr,n);
+    return 0;
+}
