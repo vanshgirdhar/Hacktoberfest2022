@@ -1,0 +1,46 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int m,n;
+    cin>>m>>n;
+    int a[m],b[n];
+    int i,j;
+    cout<<"\n Enter the elements in array :";
+    for( i=0;i<m;i++)
+    {
+        cin>>a[i];
+    }
+    cout<<"\n Enter the elements in array :";
+    for( j=0;j<n;j++)
+    {
+        cin>>b[j];
+    }
+    i=0,j=0;
+    cout<<"\n Union of two arrays : ";
+    while(i<m && j<n )
+    {
+        if(a[i]<b[j])
+        {
+            cout<<a[i++]<<"\t";
+        }
+        else if(a[i]>b[j])
+        {
+            cout<<b[j++]<<"\t";
+        }
+        else
+        {
+            cout<<b[j++]<<"\t";
+            i++;
+        }
+    }
+    while(i<m)
+    {
+        cout<<a[i++]<<"\t";
+    }
+    while(j<n)
+    {
+        cout<<b[j++]<<"\t";
+    }
+    return 0;
+}
