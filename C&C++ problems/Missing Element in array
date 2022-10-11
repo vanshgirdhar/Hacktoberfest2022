@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    long sum =0;
+    long arr_sum =0;
+    cout<<"\nEnter limit for array : ";
+    cin>>n;
+    int arr[n-1];
+    cout<<"\nEnter elements in array : ";
+    for(int i=0;i<n-1;i++)
+    {
+        cin>>arr[i];
+    }
+    
+    for(int i=0;i<n-1;i++)
+    {
+        arr_sum = arr_sum + arr[i];
+    }
+    cout<<"\narray sum = "<<arr_sum;
+    sum = n*(n+1)/2;
+    cout<<"\nTotal sum = "<<sum;
+    int missing = sum - arr_sum;
+    cout<<"\nMissing number in array is : "<<missing;
+}
