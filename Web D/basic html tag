@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Tutorial to print HTML page</h2>
+    <p>Click the button to print this page.</p>
+
+    <button onclick="printFunction()">Print</button>
+
+    <script>
+      function printFunction() { 
+        window.print(); 
+      }
+    </script>
+  </body>
+</html>
