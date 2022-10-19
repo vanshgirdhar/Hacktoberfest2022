@@ -1,0 +1,22 @@
+#include<iostream>
+ using namespace std;
+ int knapsack(int value[], int wt[] , int n , int m)
+ {
+     if(n==0||m==0)
+     {
+         return 0;
+     }
+     if(wt[n-1]>m)
+     {
+         return knapsack(value,wt,n-1,m);
+     }
+int r= max(knapsack(value,wt,n-1,m-wt[n-1])+value[n-1],knapsack(value,wt,n-1,m));
+return r;
+ }
+ int main()
+ {
+     int wt[]={10,20,30};
+     int value[]={100,50,150};
+     int W=50;
+     cout<<knapsack(value,wt,3,W);
+ }
